@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+
+  "name": "Amorphous+ zoom",
+  "description": "Zooms in Amorphous+ on Kongregate",
+  "version": "1.0",
+
+  "content_scripts": [
+    {
+      "matches": ["http://www.kongregate.com/games/innocuousGames/amorphous"],
+      "js": ["button.js"]
+    }
+  ]
+
+}
